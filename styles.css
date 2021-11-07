@@ -1,31 +1,45 @@
+/*============================== 
+Universal styling
+================================*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 .nav {
     color: brown;
     font-family: 'Noto Sans', sans-serif;
-}
+    display: inline-block;}
+
+
 body {
     background-color: #d9d4d6;
-    color: darkslategray;
+    color: darkslategray;}
 h1 {
-    font-family: 'Noto Sans', sans-serif;
-}
+    font-family: 'Noto Sans', sans-serif;}
 
 h2 {
-    font-family: 'Noto Sans', sans-serif;
-}
+    font-family: 'Noto Sans', sans-serif;}
 
 p {
-    font-family: 'Assistant', sans-serif;
-}
-.first-intro {
-    background: orange;
+    font-family: 'Assistant', sans-serif;}
+
+.home-images{
     margin: 10px;
     padding: 20px;
     max-width: 300px;
 }
+.first-intro {
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    max-width: 300px;
+    color: darkslategray;}
+    
 
 .second-intro {
     background-color: white;
     margin: 10px;
     padding: 20px;
     max-width: 300px;
-}
+    color: darkslategray;}
