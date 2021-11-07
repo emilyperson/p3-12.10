@@ -6,12 +6,30 @@ Universal styling
     padding: 0;
     border: 0;
 }
-.nav {
-    color: brown;
+
+header{
+    background: #efa3a3;
+    padding: 20px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header li, nav{
+    display: inline-block;
+    margin: 0 10px;
     font-family: 'Noto Sans', sans-serif;
-    display: inline-block;}
+}
+header nav{
+    margin-left: 40px;
+}
 
-
+main.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
 body {
     background-color: #d9d4d6;
     color: darkslategray;}
