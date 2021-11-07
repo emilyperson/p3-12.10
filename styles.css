@@ -1,28 +1,28 @@
-.nav{
+.nav {
     color: brown;
     font-family: 'Noto Sans', sans-serif;
 }
-body{
+body {
     background-color: #d9d4d6;
-h1{
+h1 {
     font-family: 'Noto Sans', sans-serif;
 }
 
-h2{
+h2 {
     font-family: 'Noto Sans', sans-serif
 }
 
-p{
+p {
     font-family: 'Assistant', sans-serif;
 }
-.first-intro{
+.first-intro {
     background-color: white;
     margin: auto;
     padding: 20px;
     max-width: 300px;
 }
 
-.second-intro{
+.second-intro {
     background-color: white;
     margin: auto;
     padding: 20px;
