@@ -7,7 +7,12 @@ Universal styling
     border: 0;
 }
 
+
+
 header{
+    position: fixed;
+    width: 100%;
+    top: 0;
     background: #efa3a3;
     padding: 20px;
 }
@@ -26,38 +31,46 @@ header nav{
     margin-left: 40px;
 }
 
-main.container{
+.container{
     max-width: 800px;
     margin: 0 auto;
+    padding-top: 220px;
 }
 body {
     background-color: #d9d4d6;
     color: darkslategray;}
 h1 {
-    font-family: 'Noto Sans', sans-serif;}
+    font-family: 'Noto Sans', sans-serif;
+    margin: 20px, 0;}
 
 h2 {
-    font-family: 'Noto Sans', sans-serif;}
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 10px;}
 
 p {
     font-family: 'Assistant', sans-serif;}
 
-.home-images{
-    margin: 10px;
-    padding: 20px;
-    max-width: 300px;
-}
-.first-intro {
+
+.first-intro, .second-intro {
     background: white;
-    margin: 10px;
+    margin: 30px 0;
     padding: 20px;
-    max-width: 300px;
-    color: darkslategray;}
+    max-width: 500px;
+    color: darkslategray;
+    }
+
+.home-text {
+    width: 40%;
+    display:inline-block;
+    margin: 10px;
+    padding: 10px;
+    max-width: 200px;
+}
+
+.home-images img {
+    width: 40%;
+    display: inline-block;
+}
+
     
 
-.second-intro {
-    background-color: white;
-    margin: 10px;
-    padding: 20px;
-    max-width: 300px;
-    color: darkslategray;}
