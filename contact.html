@@ -11,27 +11,48 @@
   </head>
 
   <body>
-    <form name="Subscribe" method="POST" action="">
-        <div class="first-name">
-            <label for="firstname" class="label_input_wrap">First Name:</label>
-            <input type="text" name="firstname" id="firstname" />
-        </div>
+      <header>
+          <a class="logo" href="index.html"><img src="images/logo.png" alt="Liverpool Logo" width="80"></a>
+          <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </nav>
+      </header>
+  <main>
+    <div class="container">
+        <h1>Subscribe</h1>
+        <p>Join our mailing list for wine and food pairing tips and to keep up to date with our latest recipes!</p>
+      <form name="Subscribe" method="POST" action="">
+          <div class="first-name input-section">
+              <label for="firstname" class="label_input_wrap">First Name:</label>
+              <input type="text" name="firstname" id="firstname" />
+          </div>
 
-        <div class="last-name">
-            <label for="lastname" class="label_input_wrap">Last Name:</label>
-            <input type="text" name="lastname" id="lastname" />
-        </div>
+          <div class="last-name input-section">
+              <label for="lastname" class="label_input_wrap">Last Name:</label>
+              <input type="text" name="lastname" id="lastname" />
+          </div>
 
-        <div class="email">
-            <label for="email" class="label_input_wrap">Email:</label>
-            <input type="email" name="email" id="email" 
-            placeholder="jsmith@gmail.com"/>
-        </div>
+          <div class="email input-section">
+              <label for="email" class="label_input_wrap">Email:</label>
+              <input type="email" name="email" id="email" 
+              placeholder="jsmith@gmail.com"/>
+          </div>
 
-        <div class="comments">
-          <label for="comments" class="label_input_wrap">Comments:</label>
-          <textarea name="comments" id="comments" cols="55" rows="5" placeholder="Your comment goes here."></textarea>
-        </div>
-    </form>
+          <div class="comments input-section">
+            <label for="comments" class="label_input_wrap">Comments:</label>
+            <textarea name="comments" id="comments" cols="55" rows="5" placeholder="Your comment goes here."></textarea>
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="Subscribe">
+          </div>
+        </form>
+      </div>
+    </main>
+    
   </body>
 </html>
