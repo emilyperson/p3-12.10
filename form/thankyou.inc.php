@@ -72,8 +72,8 @@ footer {
  
     <div class="container">
 
-        <h1>Thank you for your inquiry</h1>
-        <p>Thanks for your interest. we have received your message, and we will be in touch shortly.</p>
+        <h1>Thank you for subscribing</h1>
+        <p>Congratulations! You just joined an awesome mailing list. Stay tuned for updates and fun wine pairing tips.</p>
         <p>Form processor provided by <a href="http://www.inventpartners.com">Invent Partners web design York</a>.</p>
     </div>
 
