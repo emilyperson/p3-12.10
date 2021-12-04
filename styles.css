@@ -26,9 +26,8 @@ header li, nav{
     display: inline-block;
     margin: 0 10px;
     font-family: 'Noto Sans', sans-serif;
-}
-header nav{
-    margin-left: 40px;
+    text-align: center;
+
 }
 
 .container{

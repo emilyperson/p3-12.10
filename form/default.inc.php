@@ -73,3 +73,7 @@ footer {
     <h1>Sorry, something went wrong with your submission</h1>
     <p>Please try again.</p>
 </div>
+
+<footer>
+    <p>This page designed by Emily Person</p>
+  </footer>
