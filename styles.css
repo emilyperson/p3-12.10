@@ -30,6 +30,11 @@ header li, nav{
 
 }
 
+nav a:hover {
+    color: slategrey;
+    transition: .3s;
+}
+
 .container{
     max-width: 800px;
     margin: 0 auto;
