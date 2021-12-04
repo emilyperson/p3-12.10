@@ -60,14 +60,15 @@ footer {
 
 <header> 
       <nav>
+      <a href="index.html"><img src="images/gb-logo.png" alt="Logo" width="150"></a>
         <ul>
           <li><a href="about.html">About</a></li>
           <li><a href="recipes.html">Recipes</a></li>
-          <a href="index.html"><img src="images/gb-logo.png" alt="Logo" width="150"></a>
           <li><a href="wine.html">Wine</a></li>
           <li><a href="contact.html">Subscribe</a></li>
         </ul>
       </nav>
+ </header>
     </header>
 <div class="container">
     <h1>Sorry, something went wrong with your submission</h1>

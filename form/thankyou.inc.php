@@ -60,23 +60,23 @@ footer {
 
 <header> 
       <nav>
+      <a href="index.html"><img src="images/gb-logo.png" alt="Logo" width="150"></a>
         <ul>
           <li><a href="about.html">About</a></li>
           <li><a href="recipes.html">Recipes</a></li>
-          <a href="index.html"><img src="images/gb-logo.png" alt="Logo" width="150"></a>
           <li><a href="wine.html">Wine</a></li>
           <li><a href="contact.html">Subscribe</a></li>
         </ul>
       </nav>
-    </header>
+ </header>
  
     <div class="container">
 
         <h1>Thank you for subscribing</h1>
         <p>Congratulations! You just joined an awesome mailing list. Stay tuned for updates and fun wine pairing tips.</p>
-        <p>Form processor provided by <a href="http://www.inventpartners.com">Invent Partners web design York</a>.</p>
+
     </div>
 
-<footer>
-    <p>This page designed by Emily Person</p>
-  </footer>
+    <footer>
+        <p>This page designed by Emily Person</p>
+    </footer>
