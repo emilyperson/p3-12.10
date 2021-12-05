@@ -63,6 +63,21 @@ footer {
     color: white;
 }
 
+.pseudo p::first-letter{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pseudo p::selection{
+    color:teal;
+    background-color: whitesmoke;
+}
+
+.pseudo p::after{
+    content: " We promise only to email you the good stuff!";
+    font-style: italic;
+}
+
 /*============================== 
 Home page styling
 ================================*/
