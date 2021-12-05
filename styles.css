@@ -13,25 +13,26 @@ header{
     position: fixed;
     width: 100%;
     top: 0;
-    background: #efa3a3;
+    background: slategray;
     padding: 20px;
 }
 
 header a{
     color: white;
     text-decoration: none;
+    display: inline-block
 }
 
 header li, nav{
-    display: inline-block;
     margin: 0 10px;
     font-family: 'Noto Sans', sans-serif;
     text-align: center;
+    display: inline-block
 
 }
 
 nav a:hover {
-    color: slategrey;
+    color: #efa3a3;
     transition: .3s;
 }
 
@@ -58,7 +59,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    background: #efa3a3;
+    background: slategray   ;
     padding: 5px;
     color: white;
 }
