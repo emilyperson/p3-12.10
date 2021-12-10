@@ -7,12 +7,16 @@
     <!--Link to CSS-->
     <link rel="stylesheet" type="text/css" 
     href="styles.css"/>
+    <link href="lightbox/src/css/lightbox.css" rel="stylesheet" />
 
     <!--Favicon -->
     <link rel="icon" href="images/gb-favicon2.png" type="img/ico">
 
     <!--Link to Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Josefin+Sans:wght@500&family=Noto+Sans&display=swap" rel="stylesheet">
+
+    <!--Link to Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   </head>
 
@@ -28,4 +32,17 @@
           </ul>
         </nav>
       </header>
-     
+
+      <>
+          <section class="gallery">
+              <h2>Gallery</h2>
+              <a href="images/Fruit.jpg" data-lightbox="image-1" data-title="Whole foods"><img src="images/Fruit.jpg" alt="Fruit" title="Fruit"></a>
+              <a href="images/glass.png" data-lightbox="image-1" data-title="Good wines expertly paired"><img src="images/glass.png" alt="Wine" title="Wine"></a>
+              <a href="images/charcuterie.jpg" data-lightbox="image-1" data-title="Engaging Presentation"><img src="images/charcuterie.jpg" alt="Charcuterie" title="Charcuterie"></a>
+          </section>
+      </main>
+      <footer>
+
+      </footer>
+      <script src="lightbox/src/js/lightbox.js"></script>
+    </body>
