@@ -12,9 +12,9 @@
 
   <body>
     <header> 
-      <a href="index.html"><img src="images/gb-logo.png" alt="Logo" width="150"></a>
       <nav>
         <ul>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="recipes.html">Recipes</a></li>
           <li><a href="wine.html">Wine</a></li>
@@ -24,40 +24,42 @@
     </header>
   <main>
     <div class="container">
-        <h1>Subscribe</h1>
-          <section class = "pseudo">
-            <p>Join our mailing list for wine and food pairing tips and to keep up to date with our latest recipes!</p>
-          
-          </section>
-        <form id="Subscribe" name="Subscribe" method="POST" action="form.php" onsubmit="return validateForm(this)">
-          
-          <div class="first-name input-section">
-              <label for="firstname" class="label_input_wrap">First Name:</label>
-              <input type="text" name="firstname" id="firstname" />
-          </div>
+        <div class="contact-container">
+            <h1>Subscribe</h1>
+              <section class = "pseudo">
+                <p>Join our mailing list for wine and food pairing tips and to keep up to date with our latest recipes!</p>
+              
+              </section>
+            <form id="Subscribe" name="Subscribe" method="POST" action="form.php" onsubmit="return validateForm(this)">
+              
+              <div class="first-name input-section">
+                  <label for="firstname" class="label_input_wrap">First Name:</label>
+                  <input type="text" name="firstname" id="firstname" />
+              </div>
 
-          <div class="last-name input-section">
-              <label for="lastname" class="label_input_wrap">Last Name:</label>
-              <input type="text" name="lastname" id="lastname" />
-          </div>
+              <div class="last-name input-section">
+                  <label for="lastname" class="label_input_wrap">Last Name:</label>
+                  <input type="text" name="lastname" id="lastname" />
+              </div>
 
-          <div class="email input-section">
-              <label for="email" class="label_input_wrap">Email:</label>
-              <input type="email" name="email" id="email" 
-              placeholder="jsmith@gmail.com"/>
-          </div>
+              <div class="email input-section">
+                  <label for="email" class="label_input_wrap">Email:</label>
+                  <input type="email" name="email" id="email" 
+                  placeholder="jsmith@gmail.com"/>
+              </div>
 
-          <div class="comments input-section">
-            <label for="comments" class="label_input_wrap">Comments:</label>
-            <textarea name="comments" id="comments" cols="55" rows="5" placeholder="Your comment goes here."></textarea>
-          </div>
+              <div class="comments input-section">
+                <label for="comments" class="label_input_wrap">Comments:</label>
+                <textarea name="comments" id="comments" cols="55" rows="5" placeholder="Your comment goes here."></textarea>
+              </div>
 
-          <div class="submit">
-            <input type="submit" value="Subscribe">
+              <div class="submit">
+                <input type="submit" value="Subscribe">
+              </div>
+            </form>
           </div>
-        </form>
-      </div>
-    </main>
+        </div>
+      </main>
   
     <footer>
       <p>This page designed by Emily Person</p>

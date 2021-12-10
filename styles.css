@@ -39,9 +39,9 @@ nav a:hover {
 }
 
 .container{
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-    padding-top: 60px;
+    padding-top: 100px;
 }
 body {
     background-color: #d9d4d6;
@@ -115,15 +115,27 @@ About page
 
 section.gallery img{
     width: 295px;
-    padding-top: 200px;
+    padding-top: 40px;
+}
+
+
+/*============================== 
+Recipes page
+================================*/
+
+.recipes{
+    display: inline-block;
+    width: 200px;
+    padding: 40px;
+    margin: 40px;
 }
 
 /*============================== 
 Contact page
 ================================*/
 
-.container {
-    max-width: 900px;
+.contact-container {
+    max-width: 800px;
     margin: 0 auto;
     text-align: left;
 }
