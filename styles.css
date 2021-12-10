@@ -130,6 +130,28 @@ Recipes page
     margin: 40px;
 }
 
+.recipes img{
+    border: 5px solid slategray;
+    border-radius: 10px; 
+}
+
+/*============================== 
+Wine page
+================================*/
+
+.wines{
+    display: inline-block;
+    width: 200px;
+    padding: 40px;
+    margin: 40px;
+}
+
+.wines img{
+    border: 5px solid slategray;
+    border-radius: 10px;
+}
+
+
 /*============================== 
 Contact page
 ================================*/
