@@ -125,15 +125,19 @@ Recipes page
 
 .flip-card{
     display: inline-block;
-    width: 200px;
+    width: 30%;
     padding: 40px;
-    margin: 40px;
+    margin: 140px;
     background: transparent;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
 }
 
 .flip-card img{
     border: 5px solid slategray;
     border-radius: 10px; 
+    width: 100%;
 }
 .flip-card-inner{
     position: relative;
@@ -148,7 +152,7 @@ Recipes page
     transform: rotateY(180deg);
 }
 
-.flip-card-front .flip-card-back{
+.flip-card-front, .flip-card-back{
     position: absolute;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -231,4 +235,15 @@ textarea {
     font-family: sans-serif;
     padding: 5px 10px;
     border-radius: 3px;
+}
+
+
+/*============================== 
+Individual Recipe pages
+================================*/
+
+.recipe-image{
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px 5px 0 5px;
 }
