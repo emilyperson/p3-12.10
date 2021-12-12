@@ -50,7 +50,6 @@ h1 {
     font-family: 'Noto Sans', sans-serif;
     margin: 20px 0;
     padding: 5px;
-    margin: 5px;
     text-align: center;}
 
 h2 {
@@ -70,6 +69,7 @@ footer {
     background: slategray   ;
     padding: 5px;
     color: white;
+    margin-top: 100px;
 }
 
 
@@ -128,6 +128,9 @@ section.gallery img{
 /*============================== 
 Recipes page
 ================================*/
+.board{
+    margin: auto 0;
+}
 
 .flip-card{
     display: inline-block;
@@ -135,7 +138,7 @@ Recipes page
     padding: 40px;
     margin: 140px 40px;
     background: transparent;
-    color: whitesmoke;
+    color: slategray;
     text-decoration: none;
     text-align: center;
 }
