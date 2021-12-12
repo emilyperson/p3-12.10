@@ -15,6 +15,7 @@ header{
     top: 0;
     background: slategray;
     padding: 20px;
+    z-index: 99;
 }
 
 header nav a{
@@ -41,7 +42,7 @@ nav a:hover {
 .container{
     max-width: 900px;
     margin: 0 auto;
-    padding-top: 100px
+    padding: 100px
 }
 body {
     background-color: #d9d4d6;
@@ -54,8 +55,7 @@ h1 {
 
 h2 {
     font-family: 'Noto Sans', sans-serif;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom, margin-top: 10px
     }
 }
 
@@ -69,7 +69,6 @@ footer {
     background: slategray   ;
     padding: 5px;
     color: white;
-    margin-top: 100px;
 }
 
 
@@ -94,7 +93,7 @@ Home page styling
     padding-top: 80px;
 }
 .first-intro, .second-intro {
-    background: white;
+    background: whitesmoke;
     margin: 30px 0;
     padding: 20px;
     max-width: 500px;
@@ -130,13 +129,14 @@ Recipes page
 ================================*/
 .board{
     margin: auto 0;
+    padding-bottom: 100px;
 }
 
 .flip-card{
     display: inline-block;
     width: 30%;
     padding: 40px;
-    margin: 140px 40px;
+    margin-bottom: 285px;
     background: transparent;
     color: slategray;
     text-decoration: none;
