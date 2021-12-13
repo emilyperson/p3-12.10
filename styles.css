@@ -49,15 +49,14 @@ body {
     color: darkslategray;}
 h1 {
     font-family: 'Noto Sans', sans-serif;
-    margin: 20px 0;
+    margin: 10px 0;
     padding: 5px;
     text-align: center;}
 
 h2 {
     font-family: 'Noto Sans', sans-serif;
-    margin-bottom, margin-top: 10px
+    margin: 10px;
     }
-}
 
 p {
     font-family: 'Assistant', sans-serif;}
@@ -125,7 +124,7 @@ section.gallery img{
 
 
 /*============================== 
-Recipes page
+Recipes and Wine page
 ================================*/
 .board{
     margin: auto 0;
@@ -170,9 +169,6 @@ Recipes page
 .flip-card-back {
     transform: rotateY(180deg);
 }
-/*============================== 
-Wine page
-================================*/
 
 .wines{
     display: inline-block;

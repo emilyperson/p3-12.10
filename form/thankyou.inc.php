@@ -11,7 +11,7 @@ header{
     position: fixed;
     width: 100%;
     top: 0;
-    background: #efa3a3;
+    background: darkslategray;
     padding: 20px;
 }
 
@@ -52,7 +52,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    background: #efa3a3;
+    background: darkslategray;
     padding: 5px;
     color: white;
 }
@@ -60,8 +60,8 @@ footer {
 
 <header> 
       <nav>
-      <a href="index.html"><img src="images/gb-logo.png" alt="Logo" width="150"></a>
         <ul>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="recipes.html">Recipes</a></li>
           <li><a href="wine.html">Wine</a></li>
@@ -78,5 +78,5 @@ footer {
     </div>
 
     <footer>
-        <p>This page designed by Emily Person</p>
+        <p>Website designed by Emily Person</p>
     </footer>
